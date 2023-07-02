@@ -21,6 +21,9 @@
 .img-responsive{
     width: 100%;
 }
+.img-curve{
+    border-radius: 15px;
+}
 a{
     color: #e74c3c;
     text-decoration: none !important;
@@ -46,6 +49,30 @@ a:hover{
 .btn-primary:hover{
     background-color:#c0392b;
 }
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+h2{
+    color: #2c3e50;
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.text-white{
+    color: white;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
 
 
 /*css for navbar section*/
@@ -53,9 +80,7 @@ a:hover{
     width: 10%;
     float: left;
 }
-.text-right{
-    text-align: right;
-}
+
 .menu{
     line-height: 60px;
 }
@@ -67,6 +92,7 @@ a:hover{
     padding: 1%;
     font-weight: bold !important;
 }
+
 
 /*css for food search*/
 .food-search{
@@ -83,3 +109,14 @@ a:hover{
     border-radius: 5px;
     padding: 1%;
 }
+
+/*css for categories*/
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+.categories{
+    padding: 4% 0;
+}
+
