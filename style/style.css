@@ -157,3 +157,45 @@ h3{
     display: inline;
     padding: 1%;
 }
+
+/* css for small screen devices like phones*/
+@media only screen and (max-width: 768px){
+    .logo{
+        width: 80%;
+        float: none !important;
+        margin: 1% auto !important;
+    }
+    .menu ul{
+        text-align: center;
+    }
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+    .btn{
+        width: 90%;
+        padding: 2%;
+    }
+    .food-search{
+        padding: 10% 0;
+    }
+    .categories{
+        padding: 20% 0;
+    }
+    .box-3{
+        width: 90%;
+        margin: 4% auto;
+    }
+    .food-menu{
+        padding: 20% 0;
+    }
+    .box-4{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+}
